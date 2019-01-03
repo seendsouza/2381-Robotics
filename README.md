@@ -38,6 +38,7 @@ background: '/img/posts/YYYY-MM-DD-title-name.jpg'
 ---
 ```
 Note the image you put in /img/posts/ has the same naming scheme as the post
-Also note that the time is 24 hour time. If you write the post in another time zone other than EST, change -0500 accordingly (this is RFC822 time)
+Also note that the time is 24 hour time. If you write the post in another time zone other than EST, change -0500 accordingly (this is RFC822 time).
+Then go wild including whatever stuff u want in your blog posts. You can use the current blog posts as reference for what tags and stuff you should use for the html.
 
 
