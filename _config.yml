@@ -1,0 +1,19 @@
+title:             2381 Robotics
+email:             sdammobubbles@gmail.com
+description:       2381 Robotics
+author:            Sean D'Souza
+baseurl:           "/"
+url:               "http://seendsouza.github.io/2381-Robotics"
+
+# Social Profiles
+twitter_username:  2381_Robotics
+github_username:   seendsouza
+facebook_username: 2381_Robotics
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
