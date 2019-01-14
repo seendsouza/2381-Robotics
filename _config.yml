@@ -6,9 +6,9 @@ baseurl:           "/2381-Robotics"
 url:               "http://seendsouza.github.io"
 
 # Social Profiles
-twitter_username:  2381_Robotics
-github_username:   seendsouza
-facebook_username: 2381_Robotics
+gitlab_username:  2381-Robotics
+github_username:   andydabin
+instagram_username: 2381_kernel_bye
 
 # Build settings
 markdown:          kramdown
