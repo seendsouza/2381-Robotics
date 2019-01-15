@@ -26,8 +26,8 @@ def format_names(image_names, relative_path):
     bottom_text = "---"
     output = top_text
     for _, image in enumerate(image_names):
-	image_name = extract_title(image)
-	output += "  - image_path: {}\n    title: {}\n".format(relative_path + image, image_name) 
+        image_name = extract_title(image)
+        output += "  - image_path: {}\n    title: {}\n".format(relative_path + image, image_name)
     output += bottom_text
     return output
 
@@ -36,7 +36,7 @@ def extract_title(image):
     Makes titles from filenames
     """
     name = str()
-    for _, char in image:
+    for _, char in enumerate(image):
         if char == "-":
             break
         elif char == "_":
@@ -52,6 +52,8 @@ def main(input_path, output_path):
     """
     image_names = generate_list(input_path)
     output = format_names(image_names, output_path)
+    with open("media.html", "w") as text_file:
+        text_file.write(output)
 
 if __name__ == "__main__":
     main("../img/media/", "./img/media/")
