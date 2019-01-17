@@ -3,31 +3,32 @@ Automates the HTML (Jekyll form) creation for media.html, so
 that the images do not have to be manually inserted into it.
 """
 import os
+import yaml
 import curses
+from pprint import pformat
+
+
 
 counter = int()
 blog_properties = list()
 
 class BlogPost():
-    def __init__(self, title, author, date, text):
-        self.title = title
-        self.author = author
-        self.date = date
-        self.text = text
-
-def remove_header(line):
-    return line
+    def __repr__(self):
+        return pformat(vars(self), indent=4, width=1)
+    title = str()
+    author = str()
+    date = str()
+    text = str()
 
 def check_line(line, counter):
-    print(line)
-    print(line.find("title: "))
-    if line.startswith("title:"):
+    if line.find("title: ") != -1:
         counter += 1
-        blog_properties.append(instance.Blog_Post())
+        instance = BlogPost()
+        blog_properties.append(instance)
         blog_properties[counter].title = remove_header(line)
-    elif line.startswith("author: "):
+    elif line.find("author: ") != -1:
         blog_properties[counter].author = remove_header(line)
-    elif line.startswith("date: "):
+    elif line.find("date: ") != -1:
         blog_properties[counter].date = remove_header(line)
     else:
         blog_properties[counter].text += line
