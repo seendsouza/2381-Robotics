@@ -1,6 +1,6 @@
 ﻿---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-10-16 16:00:00 -0500
 ---
 # Robot setup
@@ -15,8 +15,8 @@ IMG[000,001,002]
 The completed drive has the motors very close together. The entire robot fits within 20 holes, and thus the drive is 6 holes from c-channel to c-channel. This means that there would be 8 holes between the c-channels, and because the c-channels on the interior are turned flat-part out. The motors are around 4.5 holes in width, which means that there is only 1 hole spacing between the motors, and the way that the chassis is constructed leaves a decent amount of space for motor controllers and wires (as long as we use wire-retaining clips).
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-10-19 13:00:00 -0500
 ---
 # Intake
@@ -30,8 +30,8 @@ IMG[002]
 It was determined that having a flywheel ratio of 1:15 would be better for flywheel spin-up times. Our previous flywheel ran 1:25 on two speed motors, and although it was able to keep rotational speed without burning out, it required a spin-up time of around 2 seconds. It also launched the ball with too much power, more than was necessary, especially with close-to-flag play that we generally expect. There was no use for having so much power, especially if it was causing our flywheel to have a long spinup and recovery time. With that in mind, we decided to switch to 1:15. This would give us options between 2400 rpm and 3600, compared to the 4000 rpm previously. Scaling between 2400 rpm and 3600 rpm allows us to quickly change out the internal motor gearings and decide and test. This will have to be done later. The flywheel itself was originally spaced quite wide, but in this iteration we wanted the shafts to be closer. That’s what we tried to do this time.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-10-24 -0500
 ---
 # Intake
@@ -51,8 +51,8 @@ IMG[003]
 Our cortex is now also mounted in the center of our robot - the idea with this mounting position is to give it the most “space” in the back for a modular lift system. This means that everything should be moved towards the front, but still be easily accessible. The area which we found is quite good because we are able to add all our hardware around it while the cortex is still accessible.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-01 -0500
 ---
 # Wiring Drive Motors
@@ -76,8 +76,8 @@ Although our power expander is still not here yet, we have to start thinking abo
 IMG[007,008]
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-08 12:00:00 -0500
 ---
 This meeting, we added a descoring arm to our robot, and also managed to find some good places for our license plates, as well as add in our final sensors. This is the last build day we have before handing over to our programming and driver.
@@ -109,8 +109,8 @@ The gyroscope is one of the sensors that “drifts” in vex. It is affected a l
 The last thing that we did was mount our license plates. We have a total of 6 license plates, 3 for each colour, two number plates and one vanity plate. The two number plates are held on the side of the robot, as per regulation. We used standoffs on the left side of the robot so that we would be able to quickly change the colours of the plates, and on the right side we screwed both the plates together, so it’ll take a few seconds to unscrew and remount the plates. We aren’t able to put on the quick-change license plates on this side because our descoring arm tower is in the way. Our last license plate, which is our name plate, went above the hood brace. This is a pretty central location, and we can show of our bot!
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-20 -0500
 ---
 This log comes after a few meetings, because we didn’t do much work, we spent most of the time on driver practice, and the work done accumulatively across these meetings is equal to one regular meeting, so we will summarize.
@@ -195,8 +195,8 @@ This is the beefed up version of the auton #1. This is slightly riskier, for the
 That’s the last thing we really have before our competition on this saturday.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-22 -0500
 ---
 This wasn’t really a meeting, just a run through and packing of all our stuff before the competition. We decided that it would be a good idea to take some old t-shirts and “pad” the sides of the box with the t-shirts. This should protect the robot a bit more, and we would also be able to prevent parts from moving in ways that theyshouldn’t and then breaking. The t-shirts also act as a cover, and help to prevent people from getting caught on the robot, or even just as a cover to keep the robot warm (going between 25 degree gyms and -15 outside is not good). We would have used packing peanuts, but realized that...it wasn’t a good idea.
@@ -205,8 +205,8 @@ We also learend that keps nuts do NOT like to stay tight if there’s intense vi
 While three of our four members are competing, one is going to be staying in ottawa working on the cad and design of our second robot. During this competition, we’ll see how the robot does and we’ll be able to come back to school on monday with a plan for the next rebuild. We plan to stay 20 wide, but maybe we can spare a few motors for other things.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-24 12:00:00 -0500
 ---
 # Limitations of Current Robot
@@ -243,8 +243,8 @@ CPT_003
 In this screenshot, you can clearly see the double anchoring system that we use on our drive base to strengthen outer c-channels, you’ll also notice that our flywheel tower is just *slightly* behind our front wheel. This will aid us a LOT in terms of making sure that our turning point is slightly more to the back of the robot. This location also made the flywheel towers much easier to brace - these towers should be much more secure than the last ones, although if necessary they still *can* be moved forward - I might do this if it makes it easier to mount the hood - we want to keep our hood right now, as I’ve stated, but we could also go with a hood that feeds vertically and has a smaller contact arc with the ball. You’ll notice there’s one 5-wide bracing the towers at the back, and one 2-wide at the front, mounted on many white spacers (to clear the wheel). Had we moved this forward, then there would have been more nylon spacers, which may have added more flex (not sure about this - I’ll have to run tests). The rear is still largely incomplete, and you can see the multiple attempts at flywheel gearing that have been made. The aim of this gearing is to make our shaft across the front of the flywheel as short as possible. By doing this, we can help prevent the shaft from bending. In our design right now, our flywheel hood is likely going to go quite far back into the robot, which could be bad for our general design - this is something we have to watch out for. Currently, we have our intake sprockets mounted on pillow bearings, but that may be changed later.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-24 19:00:00 -0500
 ---
 Anthony again, I’m partway through the drive base cad and flywheel towers and I’ve realized that it would be possible for me to gear my entire drivetrain together - this means that I wouldn’t be using chain on drive and I would be able to put in a set of omni wheels in the middle - this would help our parking a lot! With that in mind, I’m also deciding whether or not to gear the drive on pillow bearings - it’ll allow us to have more “working space” above the robot. Our actual mount points will be the same, but because the gears are lower down, they’ll be easier to clear - which is always a bonus. We are also going to run our motors vertical (probably), because that allows us to fit things in between the c-channels, and also use pillow bearings. Our front motor is currently mounted on the front wheel, which makes intake very difficult. If we gear the drive, we would be able to move the motor back just enough so that we could move the intake in - i mean, in theory. Who knows how it works out in practice. Anyways, into inventor we go! And then we’ll see how it goes. - one more thing - using gearing also makes it easier for us to have the wheels in line, which is easier for calculations using our optical shaft encoders for odometry in autonomous.
@@ -254,8 +254,8 @@ CPT_005
 Here we have the drive semi completed. All 8 motors have been added, and as you can see there is a nice long intake path (which means we can mount our flywheel forward). 6 wheels should help us park a lot better, and our intake could also run in between wheels (making parking EVEN EASIER). Things in between wheels won’t hit the parking platfrom because the wheels beside them form a line , and if they’re behind that plane then they are ok. 
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-25 12:00:00 -0500
 ---
 This is about 15 minutes into my CAD design work, and I (anthony) quickly realized that it would not be too difficult to do a DLD gearing (drive lift differential). Because we have so many 60T gears, it’s not hard for us to put one in wherever we wanted, and using 8 motors along the base of our robot is a little bit excessive, and makes spacing on the intake very difficult. Using such a transmission, we are able to power a lift (I’ll explain how we can do this with such little range of motion later), and we are also able to save space on the intake.
@@ -269,8 +269,8 @@ Anthony again - I’ve finally added the bearings into the CAD file - it took a 
 At this point, the length of the arms is 7 holes, and the length of the vertical braces are 6 holes. (20). The issue however, is that if the vertical brace needed to complete the 4-bar is only 6 holes long, it will be difficult to drive the actual 4-bar from the mini 4-bar. But, how does the motion [a]
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-11-28 12:00:00 -0500
 ---
 This meeting everyone was involved, we accomplished a few tasks:
@@ -301,8 +301,8 @@ Anthony here - after the competition on the 8th, I’ve realized that there are 
 Our rebuild will likely also feature a gearbox, so 300rpm on 4” wheels might even be feasible if we build it right. This is all going to depend on how we decide to build the robot.
 
 ---
-title: Coding
-author: Andy Kim
+title: "Coding"
+author: "Andy Kim"
 date:  2018-12-01 12:00:00 -0500
 ---
 Andy here: First, we started with setting up the ports for the sensors and motors - doing this properly is super important as it will make the rest of our code more manageable, and easier to work with. Doing this poorly could lead to many more issues later on, which we are trying to avoid.. We decided to use #define precompiler statements for all of the port setup so that we could easily change which port a motor or sensor is connected to without changing every other instance the motor/sensor is used.
@@ -336,8 +336,8 @@ A quick note about the notebook style over this build
 As we are building this robot over the break, we will have irregular meetings, and the developments made over these individual meetings lasting anywhere from 5 to 10 minutes may not be recorded. This is to make our lives easier, and allow us to develop a robot faster - notebooking takes a significant amount of time. With this in mind, we will be taking notes at the end of each development ‘period’ or cycle, this will become apparent as we develop our notebook. There are no dates for these meetings as they may span one day, or multiple days. 
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-12-23 13:00:00 -0500
 ---
 # The Drive Base
@@ -360,8 +360,8 @@ IMG[004]
 Here, in the back, we can see the location for our last encoder wheel. It fits VERY nicely in the little nook that we have made, and we are still able to brace over it. It is centered with respect to the rear wheels, however we may decide to mount it on a banded mini 4-bar so that it is able to move when climbing (if we deem it necessary). This will have to be established through testing, and we have two options for the shaft on this wheel - we can either choose to run the shaft close to the wheel, with the encoder basically touching the wheel, or we can choose to run the shaft all the way through the underbody of the robot, which measn that we can place the encoder internally (whichever ends up being easier, I guess).
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-12-24 13:00:00 -0500
 ---
 # The Intake
@@ -391,8 +391,8 @@ IMG[009]
 The c-channel here is put on standoffs so that they will be able to brace against the bottom hole of the c-channel. We could do box braces, but we realized that the source of our issue was the c-channel below it flexing. To prevent this, we secure it in two locations and then there’s nowhere for it to “bend”. 
 
 ---
-title: 2381X - Merry Christmas! Double Catapult is rarted!
-author: Anthony Luo
+title: "2381X - Merry Christmas! Double Catapult is rarted!"
+author: "Anthony Luo"
 date: 2018-12-25 13:00:00 -0500
 ---
 So, anthony here. I rewatched some match footage and realized that doing a double catapult is totally ridiculous. You have 1 point to defend against. Flywheel is so much better in terms of autonomous. With that said, the entire robot spacing has to change because the way flywheel works is totally different from the way catapult spacing works. Our setup is going to look as follows:
@@ -408,16 +408,16 @@ The reason we want a ball collector is so that we can get additional balls in au
 As always, our robot will have wedges which are designed to take weight off the other robot and make it harder for them to get away. The rest of the robot will be explained as the build occurs.
 
 ---
-title: 2381X - Provs Bot
-author: Anthony Luo
+title: "2381X - Provs Bot"
+author: "Anthony Luo"
 date: 2018-12-30 13:00:00 -0500
 ---
 So. This robot is going to be our provs bot. I metup with andy and we decided the following distribution for our robot. We want to go 30 wide, and have space internally for tracking wheels of all sorts, have either a 6m or 8m turbo drive, a flywheel, intake, and index system that will allow us to collect balls from off the cap. I have a decent idea of how I want everything to look, and again I want the ball intake to “step” the ball up in between the wheels, then get carried back and up. It is going to be incredibly important in this rebuild that our ball path is optimized - speed will be incredibly important. I believe it’s likely that we will spend a lot of time tuning the flywheel hood as well as the ball intake path. 
 With 30 wide, we can fit most of the important things in the back - cortex, batteries, drive motors. We can elevate the drive motors above the wheels, and then gear or chain them up. We intend on using a drive similar to 5225A’s from last season, which gave a lot of space internally. We want to keep drive spacing roughly the same as we have now, which should be good for just about everything. We will however require a large amount of custom cut-shaft lengths if we intend to do what pilons did, I have a proposed solution which makes our drive slightly wider, which involves adding 0.5” extra space in the back. This should still allow us to have tracking wheels around 7.5” apart (assuming drive is going to be 6 holes nominal, and then adding 2 holes on each side for our gears, gives us a total width of 8 holes per side, leaving us 14 holes in between sides, which goes to around 7”. This doesn’t give us the widest distance, but then should still give us a decent amount of resolution for our tracking purposes. Mounting the wheels this way with an external channel also saves us some C-channel for bearings - maybe not a bad deal. Our flywheel hood will be cut out of lexan, this will probably be done once we return to school, in the meantime we’ll focus on getting drive up and running nicely, as well as intake and index running smoothly and efficiently (every bit matters now!).
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2018-12-31 13:00:00 -0500
 ---
 So I spent a little bit of time dismantling the older drive, and spent some time working on the new drive base. We want to use two seperate c-channels going across the front and back of the drive base, this will give us a lot more flexibility in terms of mounting everything. We can run a whole setup of gears at the back, with a full suite of proper gearing, and then chain it up to the front. We started by looking at other drive bases of a similar style, and asking around to see what we should be looking out for. Here were a few problems that we’d identified (that are common).
@@ -441,8 +441,8 @@ IMG[003,004]
 I also experimented with a few different methods of box-bracing today. Previously we have done screws with nuts, as shown in image 003. Today, I tried to do something like image 004. This is a lot simpler to maintain (ie if it needs to change spots), but I find that it does not “brace” as well as the screw through method.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2019-01-01 13:00:00 -0500
 ---
 Anthony here - Today, the drive for the robot was built. After last time, there were a few issues that we ran into, that we fixed. One side of the drive was then completed, with all 4 drive motors mounted, bearings in place, shaft collars in place, and battery mounted. There are still modifications and improvements to be made - however, this should be pretty good for now. 
@@ -466,8 +466,8 @@ Lastly image 010 shows the drive base. As previously mentioned, the interior C-c
 Currently, our drive is very flexible, and we will definitely need another brace - one brace will not be able to hold the torque across the drivebase.  Where this one will go, we can solve later. I will also need to put standoffs across the pontoons, so that the flex between the actual pontoon is reduced. 
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2019-01-02 13:00:00 -0500
 ---
 The first thing that I did today was rebuild the gearing on each side so that we would have High strength (HS) gears. Previously, I had tried bolting the gears together. There weren’t enough clearances with the wheel. In order to solve this, we switched to an Low strength (LS) 60T gear, for a variety of reasons, mostly that it would clear better. This time however, I eliminated bolts from the equation. Now, normally HS gears have inserts, one is green free-spinning and one is a metal (steel?) square insert, to adapt form HS shafts to LS shafts. The issue that I am afraid of, is that when you transfer all of the power from 4 drive motors into one gear, going across one shaft, it may bend, flex, and we lose the amazing properties of a geared drive, which is instantaneous response. The solution we implemented was mating the two gears directly with a HS insert - while then passing a LS shaft through. The entire setup. This means that we are able to use the same shaft (which is much better) than splitting a shaft), and we are able to transfer power through the HS shaft insert, and LS shaft as well - this means that we should have almost 0 delay between force coming from the motors and force going into the gear on the wheel, which is then transferred through to the wheels through LS shafts, bolts, and sprockets - however, all of these are using metal on LS shafts - better than Plastic which the LS gears use. How do I make this gearbox? Start with the gears shown in IMG_1522(jan2,2019), and then put the insert into one gear IMG_1525(jan2,2019). Because the other insert goes halfway, the insert here is also only going to go halfway. However, because this one is designed to go through an entire gear, it sticks out a bit. Once it’s in, you can place the second gear on, and it will fit nicely, as in IMG-1526.
@@ -479,8 +479,8 @@ Ok - intake time. The intake should be made out of as light and low-clearance ma
 As it stands right now, we have just enough clearance to park. IMG_1546 shows our robot in a parking position, in this position it will have the least clearance possible from the front wheel, and as you can see the lower edge of the c-channel is probably the lowest that a brace could be mounted on before we are unable to park. IMG_1565 shows the current state of the second intake - we have mounted c-channels on the inside of the drive channels, and then we have c-channels on standoffs above that. The issue with the current setup is that there is too much compression on the ball, thus upping the torque needed to move the ball up. We hope to solve this issue simply by adding in a spacer or longer standoff, to make it so that there is less contact with the ball. 
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2019-01-03 13:00:00 -0500
 ---
 Anthony back here again - today I spent a lot of time working on the robot, but not much was accomplished - a lot of it involved test fitting parts and pieces. In the end, we had our flywheel intake path figured out - which is a very crucial part of the robot. This took around 5 hours, and was a very VERY painful ordeal. 
@@ -489,8 +489,8 @@ The next thing was mounting the flywheel towers - in order to do this we needed 
 The last thing we did was experiment with tracking wheels.e Something similar to IMG_1596. Our first attempt resulted in a very not fun sizing arrangement as you can see in IMG_1588, however we realized that we can canti axles and it should be ok - this gives us a lot more room to work with.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2019-01-08 13:00:00 -0500
 ---
 There have been quite a few improvement since last time, i’ll start with the most obvious changes, and then go into some smaller things.
@@ -501,8 +501,8 @@ The last thing that has changed so far is the intake path - yes, it has changed.
 With our intkae, we also added in our flywheel hood. We have a unique way of mouting ur flyheel hood and tensioning it that gives us a lot o options for change and adjustment, especially for fine tuning. We have mounted the standoffs holding down the 2-wide of the flywheel hood on a C-channel which is then mounted to our main towers. This gives us multiple levels of adjustment that straight mounting would not give us. It would also give us a lot more strength. IMG_1696 shows the final mounting positions that we chose, we used the middle hole on the tower so that we would be able to mount a 0.5” spacer properly (this was not necessary, we could have used 0.5” standoffs or a shaved spacer), and then picked the lower hole to mount the flywheel hood. This is still currently tentative, as we are unsure as to the compression of the hood. Once LEXAN or a non-shattering plastic (mayhaps delrin), we will be able to drill some mounting holes in the plastic and do some firing tests. AT the moment, the metal hood is there only for visual sizing purposes. The hood distancse can alsobe adjusted by using spacers. An encoder was mounted on the other side, you can see in IMG_1697 how this has been mounted. Currently there is nothing holding the encoder down - I plan to secure it very very soon.
 
 ---
-title: 2381X Meeting Messages
-author: Anthony Luo
+title: "2381X Meeting Messages"
+author: "Anthony Luo"
 date: 2019-01-10 13:00:00 -0500
 ---
 Okay - so a few things were done today. 

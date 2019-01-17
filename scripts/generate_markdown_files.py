@@ -20,7 +20,7 @@ def format_title(unformatted):
     formatted = str()
     for char in unformatted:
         if char == " ":
-            char = "_"
+            char = "-"
         formatted += char
     return formatted
 
@@ -54,7 +54,7 @@ def main(input_path, output_path):
                     yaml_dict = item
                 current_title = format_title(yaml_dict["title"])
                 current_date = format_date(yaml_dict["date"])
-                full_path = file_path_2 + "/" + current_date + "_" + current_title + ".md"
+                full_path = file_path_2 + "/" + current_date + "-" + current_title + ".md"
                 with open(full_path,"w") as blog_file:
                     for j in range(line_no_init, line_no_final):
                         blog_file.write(lines[j])
